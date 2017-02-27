@@ -1,4 +1,15 @@
-.DS_Store
+# macOS generated files
+#######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
 
+# Build System
+##############
+node_modules/
+
+# WebStorm
+##########
 .idea
 .idea/**
