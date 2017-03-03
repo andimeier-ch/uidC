@@ -55,7 +55,7 @@ header {
 }
 
 section {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .l-content-wrapper {
@@ -121,5 +121,13 @@ section {
 
 .dark-gray {
     background-color: #2F2F2F;
+}
+
+.lesson02 img {
+    display: block;
+    max-height: 95vh;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
 }
 
