@@ -7,7 +7,9 @@ var rsync   = require('gulp-rsync');
 
 
 
-
+/* *****************************************************
+ *  Default Tasks
+ ******************************************************* */
 
 gulp.task('less', function () {
    return gulp.src('./src/less/**/*.less')
@@ -25,6 +27,11 @@ gulp.task('watch', function () {
 
 gulp.task ('default', ['watch']);
 
+
+
+/* *****************************************************
+ *  Deplay with rsync
+ ******************************************************* */
 
 gulp.task ('deploy', function () {
     return gulp.src('dist/**')
