@@ -30,7 +30,7 @@ gulp.task ('default', ['watch']);
 
 
 /* *****************************************************
- *  Deplay with rsync
+ *  Deploy with rsync
  ******************************************************* */
 
 gulp.task ('deploy', function () {
@@ -38,7 +38,7 @@ gulp.task ('deploy', function () {
         .pipe(rsync({
             hostname: 'andimeier.ch',
             username: 'andimeie',
-            destination: 'public_html/test',
+            destination: 'public_html/uidc',
             compress: true,
             archive: true,
             progress: true,
