@@ -181,15 +181,17 @@ section {
     font-family: 'FontAwesome';
 }
 
-.l-content-box:hover {
-    .overlay {
+.overlay-trigger {
+    position: relative;
+    
+    &:hover .overlay {
         width: 100%;
         height: 100%;
         opacity: .7;
 
-    }
-    h3 {
-        font-size: 1.5rem;
+        h3 {
+            font-size: 1.5rem;
+        }
     }
 }
 
@@ -202,7 +204,7 @@ section {
 }
 .flex-item {
     flex: 1 1 auto;
-    padding: 10px;
+    margin: 10px;
 }
 .flex-img {
     display: block;
