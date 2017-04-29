@@ -289,6 +289,8 @@
     
     <div class="l-content-wrapper light-gray">
         <div class="l-content-box">
+            <h3>Kontextszenario</h3>
+            
             <table class="szenario__table">
                 <thead>
                 <tr>
@@ -314,7 +316,9 @@
         </div>
     
         <div class="l-content-box">
-            <table class="szenario__table">
+            <h3>Nutzerszenatio</h3>
+            
+            <table class="szenario__table nutzerszenario">
                 <thead>
                 <tr>
                     <th class="td-5"></th>
@@ -323,40 +327,105 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td class="text-center">1</td>
+                <tr class="odd">
+                    <td>1</td>
                     <td></td>
-                    <td></td>
+                    <td>
+                        <p>
+                            <i>Ausgangssituation:</i> Der Benutzer hat die App heruntergeladen und befindet sich auf dem
+                            Homescreen. Er hat folgende Optionen:
+                        </p>
+                        <ul>
+                            <li>Vordiagnose starten</li>
+                            <li>Situationsplan anzeigen</li>
+                        </ul>
+                    </td>
                 </tr>
-                <tr>
-                    <td class="text-center">2</td>
-                    <td></td>
-                    <td></td>
+                <tr class="even">
+                    <td>2</td>
+                    <td>Der Benutzer betätigt den Button „Vordiagnose“</td>
+                    <td>
+                        Die App führt den Benutzer durch drei einfache Fragen,
+                        die er jeweils über eine Multiple Choice Auswahl beantworten kann.
+                    </td>
                 </tr>
-                <tr>
-                    <td class="text-center">3</td>
-                    <td></td>
-                    <td></td>
+                <tr class="odd">
+                    <td>3</td>
+                    <td>
+                        Der Benutzer beantwortet die Fragen.<br>
+                        Über den „Weiter“-Button gelangt er jeweils zur nächsten Frage.
+                    </td>
+                    <td>
+                        Zu jedem Zeitpunkt besteht die Möglichkeit, die Befragung abzubrechen
+                        und zum Homescreen zurückzukehren.<br>
+                        Sind alle Fragen beantwortet, wertet die App die Antworten aus
+                        und liefert dem Benutzer eine Empfehlung für das weitere Vorgehen.<br><br>
+                        mögliche Aktionen:<br>
+                        <ul>
+                            <li>basierend auf seiner Vordiagnose ggf. empfohlene Sofortmassnahmen anzeigen lassen</li>
+                            <li>einen Termin vereinbaren</li>
+                            <li>zurück zum Homescreen</li>
+                        </ul>
+                    </td>
                 </tr>
-                <tr>
-                    <td class="text-center">4</td>
-                    <td></td>
-                    <td></td>
+                <tr class="even">
+                    <td>4</td>
+                    <td>Der Benutzer betätigt den Butten für die Terminvereinbarung.</td>
+                    <td>
+                        Die App gibt dem Benutzer die Möglichkeit zu wählen,
+                        bei welchem der zwei Standorte er einen Termin vereinbaren möchte.
+                        Es werden dem Benutzer jeweils drei Terminvorschläge unterbreitet,
+                        aus denen er auswählen kann.<br><br>
+                        mögliche Aktionen:<br>
+                        <ul>
+                            <li>Terminauswahl bestätigen</li>
+                            <li>abbrechen und zum Homescreen zurückkehren</li>
+                            <li>direkt zu den empfohlenen Sofortmassnahmen</li>
+                        </ul>
+                    </td>
                 </tr>
-                <tr>
-                    <td class="text-center">5</td>
-                    <td></td>
-                    <td></td>
+                <tr class="odd">
+                    <td>5</td>
+                    <td>
+                        Der Benutzer wählt seinen gewünschten Standort und einen Termin an
+                        und bestätigt mit dem „OK“-Button.
+                    </td>
+                    <td>
+                        Die App bestätigt dem Benutzer, dass er den Termin gebucht hat.
+                        Sie gibt ihm eine Ticket-Nummer sowie einige Bemerkungen zu den Bedingungen.<br><br>
+                        mögliche Aktionen:<br>
+                        <ul>
+                            <li>zur Eingabe der persönliche Angaben</li>
+                            <li>zum Homescreen zurückkehren</li>
+                            <li>direkt zu den empfohlenen Sofortmassnahmen</li>
+                        </ul>
+                    </td>
                 </tr>
-                <tr>
-                    <td class="text-center">6</td>
-                    <td></td>
-                    <td></td>
+                <tr class="even">
+                    <td>6</td>
+                    <td>Der Benutzer betätigt den Button für die Übermittlung der persönlichen Angaben.</td>
+                    <td>
+                        Es erscheint ein Formular, wo der Benutzer die benötigten Angaben eingeben kann.<br><br>
+                        mögliche Aktionen:<br>
+                        <ul>
+                            <li>persönliche Angaben übermitteln</li>
+                            <li>zum Homescreen zurückkehren</li>
+                            <li>direkt zu den empfohlenen Sofortmassnahmen</li>
+                        </ul>
+                    </td>
                 </tr>
-                <tr>
-                    <td class="text-center">7</td>
-                    <td></td>
-                    <td></td>
+                <tr class="odd">
+                    <td>7</td>
+                    <td>Der Benutzer gibt die Angaben ein, die er übermitteln möchte und bestätigt mit dem „OK“-Button.</td>
+                    <td>
+                        Die App gibt dem Benutzer die Bestätigung, dass seine Angaben übermittelt wurden.<br><br>
+                        mögliche Aktionen:<br>
+                        <ul>
+                            <li>zum Homescreen zurückkehren</li>
+                            <li>direkt zu den empfohlenen Sofortmassnahmen</li>
+                            <li>vereinbarten Termin anzeigen</li>
+                        </ul>
+                    </td>
                 </tr>
                 </tbody>
             </table>
