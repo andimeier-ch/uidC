@@ -567,24 +567,65 @@
 
 <section class="lesson lesson11">
     <h2><span class="lesson-nr">11</span>Designentwurf HiFi Prototype 1</h2>
-
+    
+    
+    
 </section>
 
 
 <section class="lesson lesson12">
     <h2><span class="lesson-nr">12</span>Finaler Designentwurf</h2>
     
+    <div class="slick-carussel-4 light-gray">
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup1.png" alt="iPhone Screen 1">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup2.png" alt="iPhone Screen 2">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup3.png" alt="iPhone Screen 3">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup4.png" alt="iPhone Screen 4">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup5.png" alt="iPhone Screen 5">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup6.png" alt="iPhone Screen 6">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup7.png" alt="iPhone Screen 7">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/iphone_mockup8.png" alt="iPhone Screen 8">
+        </div>
+    
+    </div>
+    
+    
     <div class="l-content-wrapper">
         <div class="l-content-row">
-            
-            <div class="l-content-box flex-2">
-            
+            <div class="l-content-box flex-1 flex-center text-center light-gray">
+                <div>
+                    <h2>HiFi Klickprototyp</h2>
+                    <a class="button dark-gray" href="https://invis.io/MWC3QG489" target="_blank">Ausprobieren</a>
+                </div>
             </div>
             
             <div class="l-content-box flex-1 flex-center text-center light-gray">
                 <div>
-                    <h2>HiFi Klickprototyp</h2>
-                    <a class="button dark-gray" href="https://marvelapp.com/853jf6j" target="_blank">Ausprobieren</a>
+                    <h2>Flow Chart</h2>
+                    <a class="button dark-gray" href="files/flow-chart.pdf" target="_blank">Ansehen</a>
                 </div>
             </div>
             
@@ -618,6 +659,33 @@
                 }
             ]
         });
+        
+        $('.slick-carussel-4').slick({
+            infinite: true,
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 4,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        
+        
     });
 </script>
 
