@@ -79,6 +79,7 @@
     </div>
 </section>
 
+
 <section class="lesson lesson02">
     <h2><span class="lesson-nr">02 03 04</span>Multiscreen und Bildsprache</h2>
 
@@ -124,8 +125,6 @@
     </div>
 
 </section>
-
-
 
 
 <section class="lesson lesson05">
@@ -517,7 +516,7 @@
                     Unterschied zwischen Abbrechen-Icon (Kreuz) und Home-Icon (Haus) ist nicht klar.
                 </li>
             </ul>
-            <p><a href="files/Usability Journal alle.pdf" target="_blank">Hier sind die Protokolle.</a></p>
+            <a class="button dark-gray" href="files/Usability Journal alle.pdf" target="_blank">Usability Journale</a>
         </div>
     </div>
 
@@ -568,8 +567,42 @@
 <section class="lesson lesson11">
     <h2><span class="lesson-nr">11</span>Designentwurf HiFi Prototype 1</h2>
     
+    <div class="slick-carussel-4 light-gray">
+        
+        <div class="l-content-box">
+            <img src="files/entwurf1_1.png" alt="iPhone Screen 1">
+        </div>
     
+        <div class="l-content-box">
+            <img src="files/entwurf1_2.png" alt="iPhone Screen 1">
+        </div>
     
+        <div class="l-content-box">
+            <img src="files/entwurf1_3.png" alt="iPhone Screen 1">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/entwurf1_4.png" alt="iPhone Screen 1">
+        </div>
+    
+        <div class="l-content-box">
+            <img src="files/entwurf1_5.png" alt="iPhone Screen 1">
+        </div>
+    
+    </div>
+    
+    <div class="l-content-row">
+        <div class="l-content-box flex-1 light-gray">
+        <h3>Feedback der Dozenten zum ersten Designentwurf</h3>
+            <ul>
+                <li>Text auf weissen Hintergrund setzen.</li>
+                <li>Ablauf und Fortschritt des ganzen Prozesses abbilden.</li>
+                <li>Identität schaffen, so dass man sieht, dass es sich um eine Notfallstation/-praxis handelt.</li>
+            </ul>
+        </div>
+    </div>
+
+
 </section>
 
 
@@ -617,14 +650,14 @@
         <div class="l-content-row">
             <div class="l-content-box flex-1 flex-center text-center light-gray">
                 <div>
-                    <h2>HiFi Klickprototyp</h2>
+                    <h3>HiFi Klickprototyp</h3>
                     <a class="button dark-gray" href="https://invis.io/MWC3QG489" target="_blank">Ausprobieren</a>
                 </div>
             </div>
             
             <div class="l-content-box flex-1 flex-center text-center light-gray">
                 <div>
-                    <h2>Flow Chart</h2>
+                    <h3>Flow Chart</h3>
                     <a class="button dark-gray" href="files/flow-chart.pdf" target="_blank">Ansehen</a>
                 </div>
             </div>
@@ -665,7 +698,7 @@
             centerMode: true,
             centerPadding: '60px',
             slidesToShow: 4,
-            dots: true,
+            dots: false,
             responsive: [
                 {
                     breakpoint: 1024,
@@ -679,7 +712,8 @@
                     breakpoint: 700,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        dots: true
                     }
                 }
             ]
